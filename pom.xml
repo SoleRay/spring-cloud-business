@@ -16,6 +16,11 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
+    <properties>
+        <java.version>8</java.version>
+        <spring-cloud-starter-netfilx.version>2.2.6.RELEASE</spring-cloud-starter-netfilx.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
