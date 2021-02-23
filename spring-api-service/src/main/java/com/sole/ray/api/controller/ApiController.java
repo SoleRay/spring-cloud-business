@@ -13,8 +13,8 @@ public class ApiController {
     private String port;
 
     @GetMapping("/test")
-    public String test(){
+    public String test() {
         System.out.println("api-test");
-        return "api-service:"+port;
+        return "api-service:" + port;
     }
 }
